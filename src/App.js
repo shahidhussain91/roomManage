@@ -113,6 +113,7 @@ class App extends Component {
         return this.setState({ adultCount: this.state.adultCount + 1 });
       case (x = 5):
         return this.setState({ adultCount: this.state.adultCount + 1 });
+      default:
     }
   };
   handleAddMoreAdult = () => {
